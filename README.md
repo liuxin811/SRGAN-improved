@@ -1,5 +1,4 @@
 # SRGAN-improved
-super resolution
 
 This program is an improved version based on srgan, the based code is in [srgan by zsdonghao](https://github.com/tensorlayer/srgan)
 

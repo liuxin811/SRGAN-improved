@@ -14,7 +14,7 @@ path_train_LR_orin = 'your_dir\\DIV2K_train_LR_bicubic\\X4\\'
 path_valid_HR_orin = 'your_dir\\DIV2K_valid_HR\\'
 path_valid_LR_orin = 'your_dir\\DIV2K_valid_LR_bicubic\\X4\\'
 ```
-You should init the parameters for training in `config.py'
+You should initiate the parameters for training in `config.py`
 parameters  | note 
   ------------- | ------------- 
  batch_size_init  | 初始化生成器使用的batchsize 

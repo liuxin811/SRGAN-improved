@@ -10,8 +10,12 @@ You should run `config.py` to cut images in the dataset to the right size for th
 
 ### Run
 * Start training
-
+```
+train.py
+```
 * Start Evaluating
-
+```
+evaluate.py
+```
 
 

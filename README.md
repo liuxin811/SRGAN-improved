@@ -14,7 +14,11 @@ path_train_LR_orin = 'your_dir\\DIV2K_train_LR_bicubic\\X4\\'
 path_valid_HR_orin = 'your_dir\\DIV2K_valid_HR\\'
 path_valid_LR_orin = 'your_dir\\DIV2K_valid_LR_bicubic\\X4\\'
 ```
-You should run `config.py` to cut images in the dataset to the right size for the firsr time.<br> 
+To cut images in the dataset to the right size for the firsr time you should run.<br> 
+```
+config.py
+```
+
 ### Dependecies
 * tensorflow 
 * tensorlayer

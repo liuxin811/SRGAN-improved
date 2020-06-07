@@ -14,8 +14,8 @@ path_train_LR_orin = 'your_dir\\DIV2K_train_LR_bicubic\\X4\\'
 path_valid_HR_orin = 'your_dir\\DIV2K_valid_HR\\'
 path_valid_LR_orin = 'your_dir\\DIV2K_valid_LR_bicubic\\X4\\'
 ```
-3. You should initiate the parameters for training in `config.py`<br>
-```
+3. You should initiate the parameters for training in `config.py` <br>
+
 parameters  | note 
   ------------- | ------------- 
  batch_size_init  | 初始化生成器使用的batchsize 
@@ -26,7 +26,7 @@ parameters  | note
  n_epoch_adv  | 对抗训练使用的epoch数目 
  train_step_adv  | （对抗训练）使用所有剪裁好的图片中的1/train_step_init 作为训练集，train_step_init=1表示使用全部图片  
  lr_adv  | 对抗训练使用的学习率 
-```
+
 4. To cut images in the dataset to the right size for the firsr time you should run.<br> 
 ```
 config.py

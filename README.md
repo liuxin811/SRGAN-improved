@@ -7,7 +7,11 @@ You should download the the pretrained VGG16 model in [here](https://www.cs.toro
     `path_vgg16="your_vgg16_folder/"` in `config.py` <br> 
 You can download the dataset in [DIV2K](http://www.vision.ee.ethz.ch/ntire17/)<br> 
 You should run `config.py` to cut images in the dataset to the right size for the firsr time.<br> 
-
+### Dependecies
+* tensorflow 
+* tensorlayer
+* numpy
+* scipy = 1.4.1
 ### Run
 * Start training
 ```

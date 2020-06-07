@@ -5,9 +5,9 @@ This program is an improved version based on srgan, the based code is in [srgan 
 ### Prepare Data and Pre-trained VGG
 You should download the the pretrained VGG16 model in [here](https://www.cs.toronto.edu/~frossard/vgg16/vgg16_weights.npz) and put it in `config.py`<br>
 ```
-path_vgg16="your_vgg16_folder/"
+path_vgg16="your_vgg16_folder\\"
 ``` 
-You can download the dataset in [DIV2K](http://www.vision.ee.ethz.ch/ntire17/),and put the dataset in folders below<br> 
+You can download the dataset in [DIV2K](http://www.vision.ee.ethz.ch/ntire17/),and put the dataset in folders below in `config.py`<br> 
 ```
 path_train_HR_orin = 'your_dir\\DIV2K_train_HR\\'
 path_train_LR_orin = 'your_dir\\DIV2K_train_LR_bicubic\\X4\\'

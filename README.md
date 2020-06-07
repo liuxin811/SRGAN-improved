@@ -14,7 +14,7 @@ path_train_LR_orin = 'your_dir\\DIV2K_train_LR_bicubic\\X4\\'
 path_valid_HR_orin = 'your_dir\\DIV2K_valid_HR\\'
 path_valid_LR_orin = 'your_dir\\DIV2K_valid_LR_bicubic\\X4\\'
 ```
-3. You should initiate the parameters for training in `config.py` <br>
+3. You should change the parameters suitalbe for your GPU/CPU in `config.py` <br>
 
 parameters  | note 
   ------------- | ------------- 

@@ -9,9 +9,9 @@ You can download the dataset in [DIV2K](http://www.vision.ee.ethz.ch/ntire17/)<b
 You should run `config.py` to cut images in the dataset to the right size for the firsr time.<br> 
 
 ### Run
--Start training
+* Start training
 
--Start Evaluating
+* Start Evaluating
 
 
 

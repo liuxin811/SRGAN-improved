@@ -15,10 +15,16 @@ path_valid_HR_orin = 'your_dir\\DIV2K_valid_HR\\'
 path_valid_LR_orin = 'your_dir\\DIV2K_valid_LR_bicubic\\X4\\'
 ```
 You should init the parameters for training in `config.py'
-表头  | 表头 
+parameters  | note 
   ------------- | ------------- 
- 单元格内容  | 单元格内容 
- 单元格内容l  | 单元格内容 
+ batch_size_init  | 单元格内容 
+ n_epoch_init  | 单元格内容 
+ train_step_init  | 单元格内容 
+ lr_init  | 单元格内容 
+ batch_size_adv  | 单元格内容 
+ n_epoch_adv  | 单元格内容 
+ train_step_adv  | 单元格内容 
+ lr_adv  | 单元格内容 
 
 To cut images in the dataset to the right size for the firsr time you should run.<br> 
 ```

@@ -17,14 +17,14 @@ path_valid_LR_orin = 'your_dir\\DIV2K_valid_LR_bicubic\\X4\\'
 You should init the parameters for training in `config.py'
 parameters  | note 
   ------------- | ------------- 
- batch_size_init  | 单元格内容 
- n_epoch_init  | 单元格内容 
- train_step_init  | 单元格内容 
- lr_init  | 单元格内容 
- batch_size_adv  | 单元格内容 
- n_epoch_adv  | 单元格内容 
- train_step_adv  | 单元格内容 
- lr_adv  | 单元格内容 
+ batch_size_init  | 初始化生成器使用的batchsize 
+ n_epoch_init  | 初始化生成器使用的epoch数目 
+ train_step_init  | （初始化生成器）使用所有剪裁好的图片中的1/2作为训练集，train_step_init=1表示使用全部图片 
+ lr_init  | 初始化生成器使用的学习率 
+ batch_size_adv  | 对抗训练使用的batchsize 
+ n_epoch_adv  | 对抗训练使用的epoch数目 
+ train_step_adv  | （对抗训练）使用所有剪裁好的图片中的1/2作为训练集，train_step_init=1表示使用全部图片  
+ lr_adv  | 对抗训练使用的学习率 
 
 To cut images in the dataset to the right size for the firsr time you should run.<br> 
 ```

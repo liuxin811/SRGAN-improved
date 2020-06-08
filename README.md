@@ -27,7 +27,7 @@ parameters  | note
  train_step_adv  | （对抗训练）使用所有剪裁好的图片中的1/train_step_init 作为训练集，train_step_init=1表示使用全部图片  
  lr_adv  | 对抗训练使用的学习率 
 
-4. To cut images in the dataset to the right size for the firsr time you should run.<br> 
+4. To cut images in the dataset to the right size for training you should run the following code at least once.<br> 
 ```
 config.py
 ```

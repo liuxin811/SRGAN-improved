@@ -1,6 +1,6 @@
 # SRGAN-improved
 
-This program is an improved version based on srgan, the based code is in [srgan by zsdonghao](https://github.com/tensorlayer/srgan)
+This program is an improved version based on srgan, the based code is in [srgan](https://github.com/tensorlayer/srgan) by [zsdonghao](https://github.com/zsdonghao)
 
 ### Prepare Data and Pre-trained VGG
 1. You should download the the pretrained VGG16 model in [here](https://www.cs.toronto.edu/~frossard/vgg16/vgg16_weights.npz) and put it in folder below in `config.py`<br>
@@ -46,5 +46,15 @@ train.py
 ```
 evaluate.py
 ```
-
+### citation
+If you find this project useful, we would be grateful if you cite the TensorLayer paper：
+```
+@article{tensorlayer2017,
+author = {Dong, Hao and Supratak, Akara and Mai, Luo and Liu, Fangde and Oehmichen, Axel and Yu, Simiao and Guo, Yike},
+journal = {ACM Multimedia},
+title = {{TensorLayer: A Versatile Library for Efficient Deep Learning Development}},
+url = {http://tensorlayer.org},
+year = {2017}
+}
+```
 
